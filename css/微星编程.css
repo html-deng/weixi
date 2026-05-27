@@ -56,3 +56,16 @@ li a:active{
 .first{
     background-color: #0016917d;
 }
+
+.foot{
+    text-align: center;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 107%;
+    width: 200px;
+    margin-left: 35%;
+    color: #00000061;
+}
