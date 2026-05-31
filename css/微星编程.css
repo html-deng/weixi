@@ -13,6 +13,8 @@ h1{
     border-left-width: 10px;
     background-color: #00ffff7d;
     height: 12%;
+    @media only screen and (max-width: 500px){
+    height: 17%;}
     width: 96%;
     text-align: center;
     text-shadow: 2px 2px #ffffff75;
@@ -26,7 +28,9 @@ ul{
     margin: 0px;
     padding: 0px;
     width: 20%;
-    top: 15%;
+    top:15%;
+    @media only screen and (max-width: 500px){
+    top: 25%;}
     height: 90%;
     position: fixed;
     overflow: auto;
@@ -57,10 +61,19 @@ li a:active{
     background-color: #0016917d;
 }
 
-#foot{
+footer p{
     text-align: center;
-    margin-top: 107%;
+    margin-top: 100%;
+    @media only screen and (max-width: 500px){margin-top: 115%;}
     width: 200px;
     margin-left: 35%;
     color: #00000061;
+    position: fixed;
+}
+
+#bw{
+    margin-top: 15%;
+    float: right;
+    margin-right: 10px;
+    height: 60px;
 }
