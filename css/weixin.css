@@ -1,0 +1,100 @@
+/*初始化网站主体*/
+body{
+    background-image: url(/weixin/photos/background.jpg); /*/weixin*/
+    height: 100%;
+    width:100%;
+    font-family: "黑体";
+}
+
+/*标题内容美化*/
+
+h1{
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #150080;
+    border-width: 3px;
+    border-left-width: 10px;
+    background-color: #00ffff7d;
+    height: 12%;
+    width: 96%;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff75;
+    color:white;
+    position: fixed;
+    margin: 0;
+}
+
+/*侧边栏内容美化*/
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    top:15%;
+    height: 90%;
+    position: fixed;
+    overflow: auto;
+    float: left;
+    background-color: #00ffff7d; 
+    border-radius: 5px;
+}
+
+li a{
+    display:block;
+    width: 250px;
+    background-color: #00ffff7d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20%;
+}
+
+/*侧边栏动态美化*/
+
+li a:hover{
+    color: black;
+    background-color: #a3ffff7d;
+}
+
+li a:active{
+    background-color: #a3ffff7d;
+}
+
+/*底部文字*/
+
+footer p{
+    text-align: center;
+    margin-top: 100%;
+    @media only screen and (max-width: 500px){margin-top: 115%;}
+    width: 200px;
+    margin-left: 35%;
+    color: #00000061;
+    position: fixed;
+}
+
+/*ID区域*/
+
+.first{
+    background-color: #0016917d;
+}
+
+/*CLASS区域*/
+
+#bw{
+    margin-top: 15%;
+    float: right;
+    margin-right: 10px;
+    height: 60px;
+}
+
+/*响应式网站*/
+
+h1{
+    @media only screen and (max-width: 500px){
+    height: 17%;}
+}
+
+ul{
+    @media only screen and (max-width: 500px){
+    top: 25%;}
+}
